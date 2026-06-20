@@ -46,7 +46,7 @@ function checkResult() {
     if (roundWon) {
         statusText.textContent = "Player " +  currentPlayer + "'s Win🎉";
         isGameActive = false;
-        highlineWinners(winningLine);
+        highlightWinners(winningLine);
         updateScore();
         return;
     }
@@ -75,7 +75,7 @@ function updateScore() {
 }
 
 function resetGame() {
-    currentPlayerPlayer = 'X';
+    currentPlayer = 'X';
     gameState = ["", "", "", "", "", "", "", "", ""];
     isGameActive = true;
     statusText.textContent = "Player " + currentPlayer + "'s turn";
