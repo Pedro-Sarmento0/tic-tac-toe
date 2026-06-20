@@ -6,6 +6,29 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Tic-Tac-Toe</h1>
+
+    <div class="scoreboard">
+        <div>X: <span id="scoreX">0</span></div>
+        <div>O: <span id="scoreO">0</span></div>
+    </div>
+
+    <div class="status" id="statusText">Player X's turn</div>
+
+    <div class="board" id="board">
+        <button class="cell" data-index="0"></button>
+        <button class="cell" data-index="1"></button>
+        <button class="cell" data-index="2"></button>
+        <button class="cell" data-index="3"></button>
+        <button class="cell" data-index="4"></button>
+        <button class="cell" data-index="5"></button>
+        <button class="cell" data-index="6"></button>
+        <button class="cell" data-index="7"></button>
+        <button class="cell" data-index="8"></button>
+    </div>
+
+    <button class="reset-btn" id="resetBtn">Reset Match</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
