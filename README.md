@@ -1,21 +1,41 @@
-# tic-tac-toe
+# Tic-Tac-Toe
 
-A complete, responsive, and interactive Tic-Tac-Toe game built to fulfill the Level 2 Intermediate challenge. This project is structured using clean code practices by separating the structure, style, and logic into three dedicated files.
+A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. This project was created to practice DOM manipulation, game logic, and responsive web design without using any external libraries or frameworks.
 
 ## Features
-* Complete separation of concerns: HTML5, CSS3, and Vanilla JavaScript.
-* Dynamic local multiplayer setup (Player X and Player O).
-* Real-time match status indicator and a persistent scoreboard tracker.
-* Smart win-condition validation covering all horizontal, vertical, and diagonal lines.
-* Visual highlight effects applied directly to the winning combination.
-* Match reset functionality that clears the grid without losing the current score data.
 
-## Technologies Used
-* HTML5
-* CSS3 (Grid Layout and Flexbox)
-* JavaScript (ES6 DOM Manipulation and Event Listeners)
+* Two-player local gameplay
+* Responsive layout for desktop and mobile
+* Displays the current player's turn
+* Detects wins and draws
+* Highlights the winning combination
+* Scoreboard that keeps track of wins
+* Restart button that resets the board without clearing the score
 
-## How to Run
-1. Download or clone this repository.
-2. Ensure index.html, style.css, and script.js are placed in the same directory.
-3. Open the index.html file in any modern web browser to start playing.
+## Technologies
+
+* HTML
+* CSS
+* JavaScript
+
+## Project Structure
+
+* **index.html** – page structure
+* **style.css** – layout and styling
+* **script.js** – game logic and interactions
+
+## What I Learned
+
+While building this project, I practiced:
+
+* Working with the DOM
+* Handling click events
+* Managing game state
+* Checking winning combinations
+* Writing organized and reusable JavaScript code
+
+## Preview
+
+You can also play the game online:
+
+**Live Demo:** https://tic-tac-toe-five-iota-18.vercel.app/
